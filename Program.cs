@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.Fundamentos;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp
 {
@@ -51,6 +52,25 @@ namespace CursoCSharp
                 {"Parâmetros Variáveis - Classes e Métodos", Params.Executar},
                 {"Parâmetros Nomeados - Classes e Métodos", ParametrosNomeados.Executar},
                 {"Getters e Setters - Classes e Métodos", GettersSetters.Executar},
+                {"Propriedades - Classes e Métodos", Propriedades.Executar},
+                {"Atributos Readonly - Classes e Métodos", AtributosReadonly.Executar},
+                {"Enumeradores - Classes e Métodos", Enumeradores.Executar},
+                {"Struct - Classes e Métodos", ExemploStruct.Executar},
+                {"Struct Vs Class - Classes e Métodos", StructVsClass.Executar},
+                {"Valor Vs Referência - Classes e Métodos", ValorVsReferencia.Executar},
+                {"Parâmetros Por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
+                {"Parâmetro com Valor Padrâo - Classes e Métodos", ParametroPadrao.Executar},
+
+                // Coleções
+                {"Array - Coleções", Colecoes.Array.Executar},
+                {"Coleções Array List - Coleções", ColecoesArrayList.Executar},
+                {"Coleções Dictionary - Coleções", ColecoesDictionary.Executar},
+                {"Coleções List - Coleções", ColecoesList.Executar},
+                {"Coleções Queue - Coleções", ColecoesQueue.Executar},
+                {"Coleções Set - Coleções", ColecoesSet.Executar},
+                {"Coleções Stack - Coleções", ColecoesStack.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+
             });
 
             central.SelecionarEExecutar();
