@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using CursoCSharp.ClassesEMetodos;
+﻿using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.Fundamentos;
-using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
+using System;
+using System.Collections.Generic;
 
 namespace CursoCSharp
 {
@@ -70,6 +71,13 @@ namespace CursoCSharp
                 {"Coleções Set - Coleções", ColecoesSet.Executar},
                 {"Coleções Stack - Coleções", ColecoesStack.Executar},
                 {"Igualdade - Coleções", Igualdade.Executar},
+
+                // Orientação a Objetos
+                {"Herança - Orientação a Objetos", Heranca.Executar},
+                {"Construtor This - Orientação a Objetos", ContrutorThis.Executar},
+                {"Encapsulamento - Orientação a Objetos", OO.Encapsulamento.Executar},
+                {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
+
 
             });
 
