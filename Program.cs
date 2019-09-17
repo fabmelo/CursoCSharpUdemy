@@ -3,6 +3,7 @@ using CursoCSharp.Colecoes;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
 using System;
 using System.Collections.Generic;
 
@@ -77,8 +78,17 @@ namespace CursoCSharp
                 {"Construtor This - Orientação a Objetos", ContrutorThis.Executar},
                 {"Encapsulamento - Orientação a Objetos", OO.Encapsulamento.Executar},
                 {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
+                {"Abstract - Orientação a Objetos", Abstract.Executar},
+                {"Interface - Orientação a Objetos", Interface.Executar},
+                {"Sealed - Orientação a Objetos", Sealed.Executar},
 
-
+                // Métodos e Funções
+                {"Exemplo Lambda - Métodos e Funções", ExemploLambda.Executar},
+                {"Lambdas como Delegate - Métodos e Funções", LambdasDelegate.Executar},
+                {"Usando Delegates - Métodos e Funções", UsandoDelegates.Executar},
+                {"Delegate como Funções Anônimas - Métodos e Funções", DelegateFunAnonima.Executar},
+                {"Delegate como Parâmetros - Métodos e Funções", DelegatesComoParametros.Executar},
+                {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
             });
 
             central.SelecionarEExecutar();
