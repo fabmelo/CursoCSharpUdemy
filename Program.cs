@@ -1,9 +1,12 @@
-﻿using CursoCSharp.ClassesEMetodos;
+﻿using CursoCSharp.Api;
+using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.Excecoes;
 using CursoCSharp.Fundamentos;
-using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.OO;
+using CursoCSharp.TopicosAvancados;
 using System;
 using System.Collections.Generic;
 
@@ -89,6 +92,27 @@ namespace CursoCSharp
                 {"Delegate como Funções Anônimas - Métodos e Funções", DelegateFunAnonima.Executar},
                 {"Delegate como Parâmetros - Métodos e Funções", DelegatesComoParametros.Executar},
                 {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
+
+                // Excecoes
+                {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
+                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+
+                // Explorando API
+                {"Primeiro Arquivo - Explorando API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivos - Explorando API", LendoArquivos.Executar},
+                {"Exemplo FileInfo - Explorando API", ExemploFileInfo.Executar},
+                {"Trabalhando com Diretórios - Explorando API", Diretorios.Executar},
+                {"Usando DirectoryInfo - Explorando API", ExemploDirectoryInfo.Executar},
+                {"Usando Path - Explorando API", ExemploPath.Executar},
+                {"Usando DateTime - Explorando API", ExemploDateTime.Executar},
+                {"Usando TimeSpan - Explorando API", ExemploTimeSpan.Executar},
+
+                // Tópicos Avançados
+                {"LINQ 1 - Tópicos Avaçados", LINQ1.Executar},
+                {"LINQ 2 - Tópicos Avaçados", LINQ2.Executar},
+                {"Nullables- Tópicos Avaçados", Nullables.Executar},
+                {"Dynamic - Tópicos Avaçados", Dynamics.Executar},
+
             });
 
             central.SelecionarEExecutar();
